@@ -21,7 +21,7 @@ parameter.
 
 Targets are closures so they can be called as functions, in which case they are executed as you expect, or
 they can be dependencies to other targets by being parameters to the depends function, in which case they
-are executed if an only if they have not been executed already in this run. (There is a page with some more
+are executed if and only if they have not been executed already in this run. (There is a page with some more
 information on [Targets](Targets.html).)
 
 You may be wondering about the stuff at the beginning of the script. Gant has two ways of using pre-built
