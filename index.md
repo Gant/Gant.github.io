@@ -15,7 +15,27 @@ possible with Ant scripts.  Whilst it might be seen as a competitor to Ant, Gant
 the actions, so Gant is really an alternative way of doing things using Ant, but using a programming
 language rather than XML to specify the rules.  Here is an example Gant script:
 
-In this script there are two targets, stuff and otherStuff -- the default target for this build is
+
+    includeTargets << gant.targets.Clean
+    cleanPattern << ['**/*~',  '**/*.bak']
+    cleanDirectory << 'build'
+
+    target(stuff: 'A target to do some stuff.') {
+      println 'Stuff'
+      depends clean
+      echo message: 'A default message from Ant.'
+      otherStuff()
+    }
+
+    target(otherStuff: 'A target to do some other stuff') {
+      println 'OtherStuff'
+      echo message: 'Another message from Ant.'
+      clean()
+    }
+
+    setDefaultTarget stuff
+
+In this script there are two targets, `stuff` and `otherStuff` – the default target for this build is
 designated as stuff and is the target run when Gant is executed from the command line with no target as
 parameter.
 
@@ -33,6 +53,17 @@ The default name for the Gant script is _build.gant_, in the same way that
 the default for an Ant script in _build.xml_.
 
 Gant provides a way of finding what the documented targets are:
+
+    |> gant -p
+
+    clean       Action the cleaning.
+    clobber     Action the clobbering.  Do the cleaning first.
+    otherStuff  A target to do some other stuff.
+    stuff       A target to do some stuff.
+
+    Default target is stuff.
+
+    |>
 
 The messages on this output are exactly the strings associated with the target name in the introduction to
 the target.
@@ -67,5 +98,5 @@ It is probably worth noting that [Gradle](http://www.gradle.org) grew out of wor
 
 ## Endnote
 
-If you give Gant a go and have some feedback, do let us know on the Gant User mailing list or perhaps the
-Groovy User mailing list.
+If you give Gant a go and have some feedback, do let us know on the Groovy User mailing list, putting [Gant]
+in the Subject field..
