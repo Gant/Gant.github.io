@@ -69,10 +69,3 @@ It is probably worth noting that [Gradle](http://www.gradle.org) grew out of wor
 
 If you give Gant a go and have some feedback, do let us know on the Gant User mailing list or perhaps the
 Groovy User mailing list.
-
-BTW Gant is not a toy, it is used for task management in [Grails](http://www.grails.org)! In fact there is a
-very nice [page on the Grails site](http://docs.codehaus.org/display/GRAILS/Command_Line_Scripting.html) showing
-how Gant scripts can be used in Grails.
-
-If you have any issues with Gant then please add a JIRA issue into the Gant JIRA at Codehaus. The URL is
-[http://jira.codehaus.org/secure/CreateIssue!default.jspa](http://jira.codehaus.org/secure/CreateIssue!default.jspa)

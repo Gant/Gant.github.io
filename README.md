@@ -1,3 +1,3 @@
 # Gant.github.io
 
-Gant GitHub Page (http://gant.github.io/)
+Gant GitHub Pages (http://gant.github.io/)
