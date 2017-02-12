@@ -1,6 +1,6 @@
 ---
 layout: master
-title: Gant -- Man Page
+title: Gant – Man Page
 ---
 
 # Man Page
@@ -19,7 +19,7 @@ SYNOPSIS
 
 
 DESCRIPTION
-       gant  is a tool for working with Ant tasks but using Groovy as the scripting
+       gant is a tool for working with Ant tasks but using Groovy as the scripting
        language rather than using XML as a specification language.
 
        By default it takes information from build.gant which describes the targets.
@@ -77,7 +77,7 @@ DESCRIPTION
 
 
 AUTHOR
-       Gant and this manpage written by Russel Winder <russel.winder@concertant.com>.
+       Gant and this manpage written by Russel Winder <russel@winder.org.uk>.
 
 
 
