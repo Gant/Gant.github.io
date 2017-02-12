@@ -49,10 +49,10 @@ Stretch (testing)| 1.9.11 | <http://packages.debian.org/stretch/gant>
 Sid (unstable) | 1.9.11 | <http://packages.debian.org/sid/gant>
 
 ---|---|---
-Precise | 1.9.7 | <http://packages.ubuntu/com/precise/gant>
-Trusty | 1.9.9 | <http://packages.ubuntu.com/trusty/gant>
-Xenial | 1.9.11 | <http://packages.ubuntu/com/xenial/gant>
-Yakkety | 1.9.11 | <http://packages.ubuntu.com/yakkety/gant>
+Precise (12.04LTS) | 1.9.7 | <http://packages.ubuntu/com/precise/gant>
+Trusty (16.04LTS) | 1.9.9 | <http://packages.ubuntu.com/trusty/gant>
+Xenial (16.04LTS) | 1.9.11 | <http://packages.ubuntu/com/xenial/gant>
+Yakkety (16.10) | 1.9.11 | <http://packages.ubuntu.com/yakkety/gant>
 Zesty | 1.9.11 | <http://packages.ubuntu.com/zesty/gant>
 
 as at 2017-02-12T11:59+00:00. Gant always depends on the Groovy package, but this will get installed
