@@ -1,11 +1,11 @@
 ---
 layout: master
-title: Gant -- Groovy dependency and Ant task programming
+title: Gant – Groovy dependency and Ant task programming
 ---
 
 # Gant
 
-*Gant 1.9.11 released, 2014-05-05T16:27:00+01:00*
+*Gant 1.10.0 released, 2017-02-12T12:41+00:00*
 
 # Gant is Groovy Ant Scripting
 
