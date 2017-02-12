@@ -7,24 +7,12 @@ title: Gant -- Pre-package Distributions
 
 ## Source and General Precompiled Distribution
 
-_Due to a management oversight, the 1.9.11 distribution files were not retrieved from the Codehaus
+Due to a management oversight, the 1.9.11 distribution files were not retrieved from the Codehaus
 repository before the repository went away. For various reasons, it is not possible to recreate the
-files. A new release 1.10.0 will shortly be made._
-
-_NB 1.10.0 is in fact a bug release over 1.9.11, but because of the change of build, supported Groovy
-versions, and base Java version, a new minor version is released._
-
-<!--
-The latest Gant distribution downloads are available:
+files. GitHub makes downloads for the release source files available:
 
 ---|---|---
-1.10.0 Source | [Tarball](http://dist.codehaus.org/gant/distributions/gant_src-1.10.0.tgz) | [Zipfile](http://dist.codehaus.org/gant/distributions/gant_src-1.10.0.zip)
-1.10.0 Binary, compiled for use with Groovy 2.4.8 installation | [Tarball](http://dist.codehaus.org/gant/distributions/gant-1.10.0-_groovy-2.3.0.tgz) | [Zipfile](http://dist.codehaus.org/gant/distributions/gant-1.10.0-_groovy-2.3.0.zip)
-1.10.0 Binary, standalone installation | [Tarball](http://dist.codehaus.org/gant/distributions/gant-1.10.0.tgz) | [Zipfile](http://dist.codehaus.org/gant/distributions/gant-1.10.0.zip)
-
-Installation of any of the binary distributions is simply a matter of extracting the distribution to the
-desired location. A directory gant-1.10.0 will be created.
--->
+1.9.11 Source | [Tarball](https://github.com/Gant/Gant/archive/1.9.11.tar.gz) | [Zipfile](https://github.com/Gant/Gant/archive/1.9.11.zip)
 
 All the artefacts for Gant 1.9.11 and many earlier versions remain on Maven Central. The groupId is
 org.codehaus.gant, the artifactId is one of gant\_groovy2.0, gant\_groovy2.1, gant\_groovy2.2, gant\_groovy2.3
@@ -33,10 +21,21 @@ org.codehaus.gant, the artifactId is one of gant\_groovy2.0, gant\_groovy2.1, ga
 The artefacts for Groovy 2.3.x should work with Groovy 2.4.x, pending release of Gant 1.10.0 which will be
 compiled for Groovy 2.4.8 but will work with any 2.4.x, and 2.5.x versions of Groovy.
 
+A new release, 1.10.0, is being made. 1.10.0 is, in fact, a bug release over 1.9.11, but because of the
+change of build, supported Groovy versions, and base Java version, a new minor version is released:
+
+---|---|---
+1.10.0 Source | [Tarball](distributions/gant_src-1.10.0.tgz) | [Zipfile](distributions/gant_src-1.10.0.zip)
+1.10.0 Docs | [Tarball](distributions/gant_doc-1.10.0.tgz) | [Zipfile](distributions/gant_doc-1.10.0.zip)
+1.10.0 Binary, compiled for use with Groovy 2.4.8 installation | [Tarball](distributions/gant-1.10.0-_groovy-2.4.8.tgz) | [Zipfile](distributions/gant-1.10.0-_groovy-2.4.8.zip)
+1.10.0 Binary, standalone installation | [Tarball](distributions/gant-1.10.0.tgz) | [Zipfile](distributions/gant-1.10.0.zip)
+
+Installation of any of the binary distributions is simply a matter of extracting the distribution to the
+desired location. A directory gant-1.10.0 will be created.
+
 ## Mac OS X using MacPorts
 
 **Mac OS X** users can get Gant, and Groovy, using MacPorts. As at 2017-02-12T11:59+00:00 this has Gant 1.9.10 and Groovy 2.4.8.
-
 
 ## Debian and Ubuntu Packages
 
